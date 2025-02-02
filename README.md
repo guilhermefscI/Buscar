@@ -1,1 +1,2 @@
-"Buscar" is a project focused on helping the users of the public transport and make their lifes more confortable making
+"Buscar" is a project focused on helping the users of the public transport and make their lifes more confortable.
+With a chat where the users can communicate and share information about the bus such as "The bus is full" or "the bus is early" we can help our users, with this information the user who wants to know if he will spend a lot of time waiting for the bus can find out what it´s better for him, stay at home and wait a little longer or run to the bus stop

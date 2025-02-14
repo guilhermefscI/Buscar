@@ -1,0 +1,111 @@
+@font-face {
+    font-family:"League Spartan" ;
+    src: url(https://fonts.google.com/share?selection.family=League+Spartan:wght@100..900);
+}
+html {
+    background-image: linear-gradient(#73e2f5,#b8f7ff);
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'League Spartan', sans-serif;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.box{
+    width: 45em;
+    min-height: 400px;
+    background-color: #FFFFFF;
+    margin: auto;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    padding-bottom: 20px;
+    padding: 3em;
+    border-radius: 2.5em;
+}
+
+.bus-desc{
+    display: flex;
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 0px #00000033;
+}
+
+.info{
+    color: #4141c6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 3em;
+}
+
+.image{
+    width: 150px;
+    height: 150px;       
+    padding: 25px; 
+}
+
+hr{
+    background-color: #64acff;
+    width: auto;
+    height: 10px;
+    border: none;
+    border-radius: 150px;
+}
+
+.primeiro_tr td {
+    font-weight: bold;
+    background-color: #DDDDDD;
+}
+
+.quadro_horario td {
+    width: 50px;
+    font-size: small;
+    border: 1px solid #000000;
+    text-align: center;
+}
+
+.table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+
+.quadro{
+    padding-top: 3.5em;
+    padding-bottom: 3.5em;
+}
+
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    padding: 7px;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.150);
+    text-align: center;
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-bottom: 0.7em;
+}
+
+.subtitulo{
+    padding-top: 20px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+b {
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.lista{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: disc;
+}

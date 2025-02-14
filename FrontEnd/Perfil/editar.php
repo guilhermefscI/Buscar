@@ -27,16 +27,16 @@ if (mysqli_num_rows($querySelect) == 0 ) {
             $_SESSION["dtnasc"] = $dtnasc;
             $_SESSION["telefone"] = $telefone;
 
-            echo "<script>window.location.href = 'http://localhost/ProjetecT/FrontEnd/Perfil/perfil.php';</script>";
+            echo "<script>window.location.href = 'perfil.php';</script>";
         } else {
             echo "<script>alert('Não foi possível editar os dados\\nTente Novamente');</script>";
-            echo "<script>window.location.href = 'http://localhost/ProjetecT/FrontEnd/Perfil/perfil.php';</script>";
+            echo "<script>window.location.href = 'perfil.php';</script>";
         }
     } else {
         echo "<script>alert('Insira uma data de nascimento válida\\nTente Novamente');</script>";
-        echo "<script>window.location.href = 'http://localhost/ProjetecT/FrontEnd/Perfil/perfil.php';</script>";
+        echo "<script>window.location.href = 'perfil.php';</script>";
     }
 } else {
     echo "<script>alert('Email inserido já está em uso\\nTente Novamente');</script>";
-    echo "<script>window.location.href = 'http://localhost/ProjetecT/FrontEnd/Perfil/perfil.php';</script>";
+    echo "<script>window.location.href = 'perfil.php';</script>";
 }

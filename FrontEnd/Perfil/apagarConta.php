@@ -7,4 +7,4 @@ $delete = "DELETE FROM usuario WHERE email LIKE '$email'";
 
 mysqli_query($con, $delete);
 
-header('Location: http://localhost/ProjetecT/FrontEnd/Perfil/sair.php');
+header('Location: Perfil/sair.php');

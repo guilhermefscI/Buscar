@@ -1,0 +1,89 @@
+/* Estilo Geral */
+html {
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient(rgb(115, 226, 245), rgb(225, 225, 225));
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8fbff;
+    color: #444;
+    height: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    color: #004f82;
+}
+
+.texto {
+    line-height: 1.6;
+    color: #ebe6e6;
+}
+
+.contact-form {
+    background: white;
+    padding: 30px;
+    margin: 30px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    color: #004f82;
+    margin-bottom: 10px;
+}
+
+.contact-form p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #f9f9f9;
+    transition: border 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #2a77d6;
+    outline: none;
+}
+
+.contact-form button {
+    background: #2a77d6;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+    background: #1f5ea9;
+}

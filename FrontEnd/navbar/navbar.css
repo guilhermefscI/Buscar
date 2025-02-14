@@ -166,7 +166,7 @@ a {
 }
 
 .dropdown-content {
-  display: none /*aqui*/; 
+  display: none; 
   border-top: solid 10px rgba(255, 0, 0, 0);
   position: absolute;
   min-width: 160px;

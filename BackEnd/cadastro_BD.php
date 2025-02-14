@@ -7,8 +7,6 @@ $senha = $_POST['senha'];
 $dtnasc = $_POST['dtnasc'];
 $telefone = $_POST['telefone'];
 
-$logado = false;
-
 $con = mysqli_connect('localhost', "root", "projetec", "projetec");
 $query = "INSERT INTO usuario (nome, email, senha, dataN, telefone) values ('$nome', '$email', '$senha', '$dtnasc', '$telefone')";
 
@@ -31,9 +29,6 @@ if ($stmt) {
         $_SESSION["email"] = $_POST["email"];
         $_SESSION["telefone"] = $_POST["telefone"];
         $_SESSION["dtnasc"] = $_POST["dtnasc"];
-
-        $logado = true;
-        $_SESSION['logado'] = $logado;
 
         mysqli_query($con, $query);
 

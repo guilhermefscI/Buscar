@@ -1,8 +1,6 @@
 <?php
 session_start();
 
-$logado = false;
-
 $email = $_POST['email'];
 $senha = $_POST['senha'];
 
@@ -43,16 +41,15 @@ if (mysqli_num_rows($resultEmail) > 0) {
 
         $sqlInfo = mysqli_fetch_assoc($resultInfo);
 
-        echo "<script>window.location.href = '../FrontEnd/home/home.php';</script>";
-
+        
         $_SESSION["email"] = $sqlInfo["email"];
         $_SESSION['nome'] = $sqlInfo['nome'];
         $_SESSION["senha"] = $sqlInfo["senha"];
         $_SESSION["dtnasc"] = $sqlInfo["dataN"];
         $_SESSION["telefone"] = $sqlInfo["telefone"];
+        
+        echo "<script>window.location.href = '../FrontEnd/home/home.php';</script>";
 
-        $logado = true;
-        $_SESSION['logado'] = $logado;
 
     } else {
         echo "<script>alert('Senha incorreta \\nTente Novamente');</script>";
